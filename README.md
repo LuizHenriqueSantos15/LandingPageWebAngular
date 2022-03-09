@@ -1,2 +1,4 @@
-# Olá, Mundo Estou Vivo
- Primeiro Repositória versionado do curso de git e github
+# Landing Page com Angular 8
+## Com responsividade utilizando media queries.
+### animações em css
+#### Tertial2756@outlook.com
