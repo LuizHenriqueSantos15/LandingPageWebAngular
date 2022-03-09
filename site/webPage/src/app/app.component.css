@@ -127,6 +127,7 @@ input:hover{
     .conta:hover{
         border: none;
         color: white;  
+        padding: 0px;
     }
 
     li{
