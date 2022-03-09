@@ -1,0 +1,141 @@
+header{
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    height: 12vh;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    color: transparent;
+}
+
+a{
+    margin-right: 40px;
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    width: 500px;
+    line-height: 18px;
+}
+
+a:hover{
+    color: #004bb2;
+    transition: 0.3s all;
+}
+
+.conta:hover{
+    border: 2px solid #004bb2;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s all;
+}
+.icon{
+    cursor: pointer;
+    margin-left: 15px;
+    width: 35px;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 5px;
+}
+
+span{
+    color: #004bb2;
+}
+
+main{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imgCentral{
+    margin-top: 60px;
+    margin-left: 250px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+div{
+    margin-top: 100px;
+}
+
+input{
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+input:hover{
+    color: #004bb2;
+}
+
+.sub{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #004bb2;
+    color: white;
+    width: 50%;
+}
+
+.sub:hover{
+    background-color: #013986;
+    transition: 0.3s all;
+}
+
+/* responsividade */
+
+@media screen and (max-width: 767px) {
+
+    .card-container > *:not(.circle-link) ,
+    .terminal {
+      width: 100%;
+    }
+
+    .icon{
+        margin-left: 40px;
+    }
+
+    input{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .sub{
+        width: 80%;
+    }
+
+    ul{
+        align-self: center;
+        flex-direction: column;
+    }
+
+    h1{
+        line-height: 25px;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    p{
+        width: 300px;
+    }
+}
