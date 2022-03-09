@@ -124,6 +124,15 @@ input:hover{
         width: 80%;
     }
 
+    .conta:hover{
+        border: none;
+        color: white;  
+    }
+
+    li{
+        margin-top: 10px;
+    }
+
     ul{
         align-self: center;
         flex-direction: column;
